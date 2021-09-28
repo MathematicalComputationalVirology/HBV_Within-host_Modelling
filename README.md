@@ -5,7 +5,7 @@ the paper submitted to Scientific Reports. This model uses dde_solver_m.f90 algo
 The code is written in Fortran 90 and can be compiled using gfortran. The -O4 flag should be used to optimise the executable output.
 This code as currently configured the treatment-free control case. The results are written to the file "HBVIntercellularModel.dat"
 
-On a desktop computer (~2Ghz processor) the code should take around 3mins to run and uses <1Gb of RAM.
+On a desktop computer (~2Ghz processor) the code should take around 3mins to run and uses <4Gb of RAM.
 
 Data_fitting_asa047.f90 uses Nelder-Mead algorithm (see "R ONeill, Algorithm AS 47: Function Minimization Using a Simplex Procedure, Applied Statistics,
 Volume 20, Number 3, 1971, pages 338-345" for more detail) to fit the intercellular model to patient data.
